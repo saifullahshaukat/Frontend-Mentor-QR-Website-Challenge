@@ -11,7 +11,7 @@ body {
     /* Setting the height of the body to fill the viewport */
 }
 
-div {
+main {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -23,23 +23,23 @@ div {
     text-align: center;
     /* Centering text content horizontally */
     border-radius: 20px;
-    /* Adding rounded corners to the div */
+    /* Adding rounded corners to the main */
     max-width: 320px;
-    /* Setting the maximum width of the div */
+    /* Setting the maximum width of the main */
     height: 485px;
-    /* Setting the height of the div */
+    /* Setting the height of the main */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    /* Adding a box shadow to the div */
+    /* Adding a box shadow to the main */
 }
 
-body div img {
+body main img {
     width: 288px;
     height: 288px;
     border-radius: 20px;
     margin: 0px 16.5px 0;
 }
 
-h3 {
+h1 {
     color: #1F314F;
     font-family: Outfit;
     font-size: 22px;
@@ -56,7 +56,7 @@ p {
 
 @media screen and (max-width: 375px) {
     
-    body div img {
+    body main img {
         margin: 0px 16px 0;
     }
 
